@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1618953360686854119}
   - component: {fileID: 1618953360686854121}
   - component: {fileID: 1618953360686854118}
+  - component: {fileID: 277991118848075897}
+  - component: {fileID: 4033034120612535385}
   m_Layer: 0
   m_Name: cyan
   m_TagString: Cyan
@@ -148,6 +150,41 @@ PolygonCollider2D:
       - {x: -0.18122709, y: -0.029745102}
       - {x: -0.14220595, y: 0.0050001144}
       - {x: -0.13499999, y: 0.005}
+--- !u!68 &277991118848075897
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953360686854116}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.82500017, y: 0.00000029802322}
+  - {x: 0.82500017, y: 0.00000029802322}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &4033034120612535385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953360686854116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 0
 --- !u!1 &1618953360901186363
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,6 +196,8 @@ GameObject:
   - component: {fileID: 1618953360901186362}
   - component: {fileID: 1618953360901186364}
   - component: {fileID: 1618953360901186365}
+  - component: {fileID: 2174330606808344984}
+  - component: {fileID: 2420139046278739875}
   m_Layer: 0
   m_Name: purple
   m_TagString: Purple
@@ -281,6 +320,41 @@ PolygonCollider2D:
       - {x: -0.49499997, y: -0.815}
       - {x: -0.305, y: -0.765}
       - {x: -0.175, y: -0.715}
+--- !u!68 &2174330606808344984
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953360901186363}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.82500017, y: 0}
+  - {x: 0.82500017, y: 0}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &2420139046278739875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953360901186363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 1
 --- !u!1 &1618953361089591933
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +366,8 @@ GameObject:
   - component: {fileID: 1618953361089591932}
   - component: {fileID: 1618953361089591934}
   - component: {fileID: 1618953361089591935}
+  - component: {fileID: 7798743964316762420}
+  - component: {fileID: 2615152597711106182}
   m_Layer: 0
   m_Name: pink
   m_TagString: Pink
@@ -416,6 +492,41 @@ PolygonCollider2D:
       - {x: 0.825, y: -0.825}
       - {x: 0.825, y: -0.445}
       - {x: 0.445, y: -0.385}
+--- !u!68 &7798743964316762420
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953361089591933}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.8249997, y: 0.00000047683716}
+  - {x: 0.82500064, y: 0.00000047683716}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &2615152597711106182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953361089591933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 3
 --- !u!1 &1618953361399884250
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +586,8 @@ GameObject:
   - component: {fileID: 1618953362751148737}
   - component: {fileID: 1618953362751148739}
   - component: {fileID: 1618953362751148736}
+  - component: {fileID: 9103570168935484328}
+  - component: {fileID: 6821415399725387614}
   m_Layer: 0
   m_Name: yellow
   m_TagString: Yellow
@@ -597,3 +710,38 @@ PolygonCollider2D:
       - {x: 0.825, y: -0.825}
       - {x: 0.825, y: -0.565}
       - {x: 0.815, y: -0.49499997}
+--- !u!68 &9103570168935484328
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953362751148350}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.8249999, y: 0.00000029802322}
+  - {x: 0.8250004, y: 0.00000029802322}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &6821415399725387614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618953362751148350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 2

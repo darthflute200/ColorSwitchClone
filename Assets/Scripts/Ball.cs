@@ -2,19 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Rhodos.Toolkit;
 
 public class Ball : MonoBehaviour
 {
-    public int levelpoint = 0;
+    public List<Color> Renkler;
+    public int Colorindex;
+    public Colors colours;
+    public obstacle Obstacle;
+    public bool nextLevel = true;
     public LevelManager levelmanager;
     private Rigidbody2D rb;
     public SpriteRenderer sr;
-    private string CurrentColor;
+    public Colors CurrentColor;
+    
     [SerializeField] private float Jump;
-    public Color ColorCyan;
-    public Color ColorPink;
-    public Color ColorYellow;
-    public Color ColorPurple;
+
     private void Zip()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -43,13 +46,13 @@ public class Ball : MonoBehaviour
             Destroy(collision.gameObject);
             return;
         }
-        if (collision.tag != CurrentColor)
         {
+        if ( != Obstacle.colors)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         if (collision.CompareTag("Next Level"))
         {
-            levelpoint = 1;
+            nextLevel = true;
             levelmanager.GetLevel();
 
         }
@@ -58,27 +61,17 @@ public class Ball : MonoBehaviour
     private void SetRandomColor()
     {
         int index = Random.Range(0, 4);
-        switch (index)
-        {
-            case 0:
-                CurrentColor = "Cyan";
-                sr.color = ColorCyan;
-                break;
-            case 1:
-                CurrentColor = "Purple";
-                sr.color = ColorPurple;
-                break;
-            case 2:
-                CurrentColor = "Yellow";
-                sr.color = ColorYellow;
-                break;
-            case 3:
-                CurrentColor = "Pink";
-                sr.color = ColorPink;
-                break;
-
-        }
+        CurrentColor = (Colors)index;
+        sr.color = Renkler[index];
+        
     }
 
-
+    
+}
+public enum Colors
+{
+    Cyan,
+    Pink,
+    Purple,
+    Yellow
 }

@@ -20,7 +20,7 @@ public class LevelManager : MonoBehaviour
     }
     public void GetLevel()
     {
-        if (ball.levelpoint == 1)
+        if (ball.nextLevel == true)
         {
             Currentlevelindex += 1;
             PlayerPrefs.SetInt(CurrentlevelSTR, Currentlevelindex);

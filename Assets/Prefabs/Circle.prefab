@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 934671680631051550}
   - component: {fileID: 934671680631051548}
   - component: {fileID: 934671680631051551}
+  - component: {fileID: 6162295710367652022}
   m_Layer: 0
   m_Name: yellow
   m_TagString: Yellow
@@ -133,6 +134,19 @@ PolygonCollider2D:
       - {x: 0.825, y: -0.825}
       - {x: 0.825, y: -0.565}
       - {x: 0.815, y: -0.49499997}
+--- !u!114 &6162295710367652022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934671680631052001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 2
 --- !u!1 &934671681966796293
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,6 +206,7 @@ GameObject:
   - component: {fileID: 934671682293874083}
   - component: {fileID: 934671682293874081}
   - component: {fileID: 934671682293874080}
+  - component: {fileID: 7767679167680530411}
   m_Layer: 0
   m_Name: pink
   m_TagString: Pink
@@ -316,6 +331,19 @@ PolygonCollider2D:
       - {x: 0.825, y: -0.825}
       - {x: 0.825, y: -0.445}
       - {x: 0.445, y: -0.385}
+--- !u!114 &7767679167680530411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934671682293874082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 3
 --- !u!1 &934671682472633572
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +355,7 @@ GameObject:
   - component: {fileID: 934671682472633573}
   - component: {fileID: 934671682472633571}
   - component: {fileID: 934671682472633570}
+  - component: {fileID: 3790432456395088681}
   m_Layer: 0
   m_Name: purple
   m_TagString: Purple
@@ -449,6 +478,19 @@ PolygonCollider2D:
       - {x: -0.49499997, y: -0.815}
       - {x: -0.305, y: -0.765}
       - {x: -0.175, y: -0.715}
+--- !u!114 &3790432456395088681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934671682472633572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 1
 --- !u!1 &934671682696603707
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +502,7 @@ GameObject:
   - component: {fileID: 934671682696603704}
   - component: {fileID: 934671682696603702}
   - component: {fileID: 934671682696603705}
+  - component: {fileID: 5119806711812691447}
   m_Layer: 0
   m_Name: cyan
   m_TagString: Cyan
@@ -597,3 +640,16 @@ PolygonCollider2D:
       - {x: -0.18122709, y: -0.029745102}
       - {x: -0.14220595, y: 0.0050001144}
       - {x: -0.13499999, y: 0.005}
+--- !u!114 &5119806711812691447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934671682696603707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda0b58f8a2044b719e1fb87a62f5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstale_color: 0
